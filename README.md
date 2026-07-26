@@ -6,7 +6,7 @@
 ![Anthropic](https://img.shields.io/badge/LLM-Claude%20Haiku-blueviolet)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A production-quality **Retrieval-Augmented Generation (RAG)** pipeline for intelligent document search and question answering. Built for general document search and pharmaceutical PDF analysis, combining hybrid retrieval, semantic embeddings, and reranking for accurate, context-aware responses.
+A **Retrieval-Augmented Generation (RAG)** pipeline for intelligent document search and question answering. Built for general document search and pharmaceutical PDF analysis, combining hybrid retrieval, semantic embeddings, and reranking for accurate, context-aware responses.
 
 ---
 
