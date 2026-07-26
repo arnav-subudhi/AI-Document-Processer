@@ -28,7 +28,7 @@ A **Retrieval-Augmented Generation (RAG)** pipeline for intelligent document sea
 |---|---|
 | Framework | LlamaIndex |
 | LLM | Anthropic Claude Haiku 4.5 |
-| Embeddings | `BAAI/bge-small-en` (HuggingFace, local) |
+| Embeddings | `intfloat/e5-small-v2` (HuggingFace, local) |
 | Keyword Search | BM25 |
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` |
 | PDF Parsing | PyMuPDF (fitz) |
