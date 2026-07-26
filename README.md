@@ -36,18 +36,26 @@ A **Retrieval-Augmented Generation (RAG)** pipeline for intelligent document sea
 
 ---
 
-## Installation
+## Installation and Imports
 
 Run the following in a Google Colab cell:
 
 ```python
-!pip install -q llama-index
-!pip install -q llama-index-llms-anthropic
+!pip install -q llama-index llama-index-llms-anthropic pymupdf
 !pip install -q llama-index-embeddings-huggingface
+!pip install -q nest_asyncio
 !pip install -q llama-index-retrievers-bm25
 !pip install -q sentence-transformers
-!pip install -q pymupdf
-!pip install -q nest_asyncio
+
+import os
+import fitz
+import pandas as pd
+import matplotlib.pyplot as plt
+from IPython.display import Markdown, display
+import nest_asyncio
+from llama_index.core import Settings, VectorStoreIndex
+from llama_index.llms.anthropic import Anthropic
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 ```
 
 ---
